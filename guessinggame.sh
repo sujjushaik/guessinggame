@@ -17,10 +17,10 @@ function guess_filescount {
 		if [[ $guess -gt $filescount ]]
 		then
 			echo "There is less... try again and press Enter :"
-			guess_filenum
+			guess_filescount
 		else
 			echo "There is more... try again and press Enter :"
-			guess_filenum
+			guess_filescount
 		fi
 	fi
 }
